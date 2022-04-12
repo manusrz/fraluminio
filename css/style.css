@@ -50,6 +50,7 @@ h1{
     margin: 0 auto;
     
 }
+
 .mainP p{
     text-align: center;
 }
@@ -60,7 +61,21 @@ h1{
 }
 /* estilos navegacion*/
 
-/* estilos main */
+.imgAnima {
+    width: 20%;
+    animation-name: girar;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 /* estilos footer*/
 footer {
