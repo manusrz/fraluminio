@@ -61,21 +61,7 @@ h1{
 }
 /* estilos navegacion*/
 
-.imgAnima {
-    width: 20%;
-    animation-name: girar;
-    animation-iteration-count: infinite;
-    animation-duration: 60s;
-}
 
-@keyframes girar {
-    from {
-        transform: rotate(0);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 /* estilos footer*/
 footer {
@@ -118,6 +104,10 @@ footer h3 {
     font-size: 15px;
 }
 /* ESTILOS CONTACTO*/
+.logoNav {
+    width: 20%;
+    border-radius: 20px;
+}
 .imagenesProductos{
     display: grid;
     justify-content: center;
@@ -131,8 +121,12 @@ footer h3 {
     margin-top: 20px;
     margin-left: 450px;
 }
-/* medias */
 
+.container {
+    max-width: 50px;
+}
+
+/* medias */
 @media (min-width: 768px ) {
     .mainP {
     
