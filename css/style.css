@@ -1,164 +1,113 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-body {
-    font-family: 'Roboto', sans-serif;
-}
-h1{
-    font-size: 50px;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
-}
-.imagenFondo{
-    background-image: url(../img/carpintero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-        
-}
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: whitesmoke;
-    text-transform: uppercase;
-    background-color: whitesmoke;
-    padding: 20px;
-    align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-}
-.menu li {
+.subProductos {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px; }
+
+.subProductos {
+  text-transform: uppercase; }
+
+.footerProductos h4 {
+  text-align: center;
+  font-size: 15px; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  text-transform: uppercase; }
+
+.imagenFondo {
+  background-image: url(../img/carpintero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 450px; }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  text-transform: uppercase;
+  background-color: whitesmoke;
+  padding: 20px;
+  align-items: center; }
+  .menu li {
     list-style: none;
-    margin: 2px;
-    
-}
-.navegacionEnlace {
+    margin: 2px; }
+  .menu .navegacionEnlace {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 5px;
-    
-
-}
+    padding: 5px; }
 
 .mainP img {
-    display: block;
-    margin: 0 auto;
-    
-}
+  display: block;
+  margin: 0 auto; }
 
-.mainP p{
-    text-align: center;
-}
+.mainP p {
+  text-align: center; }
 
 .subtitulo {
-    text-align: center;
-    padding: 20px;
-}
-/* estilos navegacion*/
+  text-align: center;
+  padding: 20px; }
 
-
-
-/* estilos footer*/
 footer {
-    background-color: whitesmoke;
-    margin-top: 400px;
-    padding: 10px;
-}
-
-footer h3 {
+  background-color: whitesmoke;
+  margin-top: 400px;
+  padding: 10px; }
+  footer h3 {
     text-align: center;
-    font-size: 15px;
-    
-}
+    font-size: 15px; }
 
-/* ESTILOS NOSOTROS */
- .subNosotros {
-     text-align: center;
-     text-transform: uppercase;
-     font-size: 30px;
-     margin-top: 40px;
- }
- 
-.imagenNosotros{
-    height: 400px;
-}
+.subNosotros {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 40px; }
 
+.imagenNosotros {
+  height: 400px; }
 
-/* ESTILOS PRODUCTOS */
-.subProductos{
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 40px;
-}
-
-.subProductos { 
-    text-transform: uppercase;
- }
-.footerProductos h4 {
-    text-align: center;
-    font-size: 15px;
-}
-/* ESTILOS CONTACTO*/
 .logoNav {
-    width: 20%;
-    border-radius: 20px;
-}
-.imagenesProductos{
-    display: grid;
-    justify-content: center;
-    
-}
+  width: 20%;
+  border-radius: 20px; }
+
+.imagenesProductos {
+  display: grid;
+  justify-content: center; }
+
 .footerContacto {
-    margin-top: 600px;
-}
-/* ESTILOS UBICACION */
+  margin-top: 600px; }
+
 .imgMapa {
-    margin-top: 20px;
-    margin-left: 450px;
-}
+  margin-top: 20px;
+  margin-left: 450px; }
 
 .container {
-    max-width: 50px;
-}
+  max-width: 50px; }
 
-/* medias */
-@media (min-width: 768px ) {
-    .mainP {
-    
-        display: flex;
-        font-size: 20px;
-        margin: 50px;
-    }
-   
-}
+@media (min-width: 768px) {
+  .mainP {
+    display: flex;
+    font-size: 20px;
+    margin: 50px; } }
 
-
-
-
-@media (min-width: 768px ) {
-    .imagenesProductos  {
-        max-width: 100%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        justify-items: center;
-        margin-top: 100px;
-        width: 100%;
-        
-        
-       
-        
-       }
-       .menu {
-           flex-direction: row;
-       }
-}
-@media (min-width: 480px ) {
-   .imagenesProductos {
-
-   }
-}
+@media (min-width: 768px) {
+  .imagenesProductos {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 100px;
+    width: 100%; }
+  .menu {
+    flex-direction: row; } }
