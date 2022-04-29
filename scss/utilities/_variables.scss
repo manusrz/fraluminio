@@ -1,0 +1,23 @@
+//mixin
+
+@mixin size ($height) {
+    
+    height: $height;
+}
+
+
+// mapas
+
+$fondo: (
+    bg-fondo: whitesmoke,
+);
+
+
+
+// extends
+%estilos {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+} 

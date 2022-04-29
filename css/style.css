@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 .subProductos {
   text-align: center;
   text-transform: uppercase;
@@ -15,14 +10,19 @@
   text-align: center;
   font-size: 15px; }
 
-body {
-  font-family: 'Roboto', sans-serif; }
-
 h1 {
   font-size: 50px;
   text-align: center;
   color: black;
   text-transform: uppercase; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
 
 .imagenFondo {
   background-image: url(../img/carpintero.jpg);

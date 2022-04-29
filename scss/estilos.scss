@@ -1,19 +1,19 @@
+@import "layout/productos";
+@import "utilities/variables";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import "layout/productos";
+
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 h1{
-    font-size: 50px;
-    text-align: center;
-    color: black;
-    text-transform: uppercase;
+    @extend %estilos;
 }
 .imagenFondo{
     background-image: url(../img/carpintero.jpg);
@@ -27,9 +27,9 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: whitesmoke;
+    background-color: map-get($map: $fondo, $key: bg-fondo);
     text-transform: uppercase;
-    background-color: whitesmoke;
+    background-color: map-get($map: $fondo, $key: bg-fondo);
     padding: 20px;
     align-items: center;
     li {
@@ -59,7 +59,7 @@ h1{
     padding: 20px;
 }
 footer {
-    background-color: whitesmoke;
+    background-color: map-get($map: $fondo, $key: bg-fondo);
     margin-top: 400px;
     padding: 10px;
     
@@ -76,8 +76,8 @@ footer {
 }
 
 .imagenNosotros{
-   height: 400px;
-}
+        @include size(400px)
+    }
 
 
 // estilos contacto
