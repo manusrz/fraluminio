@@ -23,6 +23,9 @@ h1{
     height: 450px;
         
 }
+.textoInicio{
+    margin-top: 100px;
+}
 .menu {
     display: flex;
     flex-direction: column;
@@ -52,6 +55,8 @@ h1{
     }
     p {
         text-align: center;
+        padding-top:100px;
+        
     }
 } 
 .subtitulo {
@@ -68,16 +73,27 @@ footer {
         font-size: 15px;
     }
 }
+
+    
+.mainpNosotros {
+    p {
+        margin-top: 100px;
+        text-align: center;
+    }
+}
 .subNosotros {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .imagenNosotros{
-        @include size(400px)
-    }
+    display: block;
+    margin: 0 auto;
+
+    @include size(400px)
+       }
 
 
 // estilos contacto
@@ -102,7 +118,18 @@ footer {
 .container {
     max-width: 50px;
 }
-
+.subUbicacion {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+iframe {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 @media (min-width: 768px ) {
     .mainP {
     

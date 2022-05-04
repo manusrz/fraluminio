@@ -31,6 +31,9 @@ body {
   background-position: center;
   height: 450px; }
 
+.textoInicio {
+  margin-top: 100px; }
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -54,7 +57,8 @@ body {
   margin: 0 auto; }
 
 .mainP p {
-  text-align: center; }
+  text-align: center;
+  padding-top: 100px; }
 
 .subtitulo {
   text-align: center;
@@ -68,13 +72,19 @@ footer {
     text-align: center;
     font-size: 15px; }
 
+.mainpNosotros p {
+  margin-top: 100px;
+  text-align: center; }
+
 .subNosotros {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
-  margin-top: 40px; }
+  margin-top: 20px; }
 
 .imagenNosotros {
+  display: block;
+  margin: 0 auto;
   height: 400px; }
 
 .logoNav {
@@ -94,6 +104,17 @@ footer {
 
 .container {
   max-width: 50px; }
+
+.subUbicacion {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+iframe {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; }
 
 @media (min-width: 768px) {
   .mainP {
