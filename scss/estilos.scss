@@ -5,12 +5,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
 }
 
 h1{
@@ -66,9 +70,12 @@ h1{
 }
 footer {
     background-color: map-get($map: $fondo, $key: bg-fondo);
-    margin-top: 400px;
+    margin-top: auto;
     padding: 10px;
-    
+    display: table;
+    width: 100%;
+    height: 5vh;
+      
     h3{ 
         text-align: center;
         font-size: 15px;
