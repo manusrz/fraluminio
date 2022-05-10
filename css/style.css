@@ -93,10 +93,19 @@ footer {
 
 .imagenesProductos {
   display: grid;
-  justify-content: center; }
+  justify-content: center;
+  gap: 20px; }
+  .imagenesProductos h4 {
+    font-size: 18.72px; }
+
+.footerProductos {
+  margin-top: 200px; }
+
+.mayusF {
+  text-transform: uppercase; }
 
 .footerContacto {
-  margin-top: 600px; }
+  margin-top: 300px; }
 
 .imgMapa {
   margin-top: 20px;
