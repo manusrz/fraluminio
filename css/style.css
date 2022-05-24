@@ -1,4 +1,14 @@
+.subProductos {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px; }
 
+.subProductos {
+  text-transform: uppercase; }
+
+.footerProductos h4 {
+  text-align: center;
+  font-size: 15px; }
 
 h1 {
   font-size: 50px;
@@ -16,13 +26,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column; }
-
-.imagenFondo {
-  background-image: url(../img/carpintero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 450px; }
 
 .textoInicio {
   margin-top: 100px; }
@@ -67,9 +70,12 @@ footer {
   footer h3 {
     text-align: center;
     font-size: 15px; }
-/* nosotros */
+
 .mainpNosotros p {
-  margin-top: 100px;
+  background-color: whitesmoke;
+  margin: 30px;
+  padding: 70px;
+  border-radius: 100px;
   text-align: center; }
 
 .subNosotros {
@@ -79,41 +85,29 @@ footer {
   margin-top: 20px; }
 
 .imagenNosotros {
-  display: block;
-  margin: 0 auto;
-  height: 400px; }
+  max-width: 100%;
+  height: auto; }
 
 .logoNav {
   width: 20%;
   border-radius: 20px; }
-/* productos */
+
 .imagenesProductos {
   display: grid;
   justify-content: center;
   gap: 20px; }
   .imagenesProductos h4 {
     font-size: 18.72px; }
-      .subProductos {
-      text-align: center;
-      text-transform: uppercase;
-      margin-top: 40px; }
-    
-  .subProductos {
-      text-transform: uppercase; }
-    
-  .footerProductos h4 {
-      text-align: center;
-      font-size: 15px; }    
 
 .footerProductos {
   margin-top: 200px; }
 
 .mayusF {
   text-transform: uppercase; }
-/* contacto */
+
 .footerContacto {
   margin-top: 300px; }
-/* ubicacion */
+
 .imgMapa {
   margin-top: 20px;
   margin-left: 450px; }
@@ -131,7 +125,7 @@ iframe {
   display: flex;
   margin-left: auto;
   margin-right: auto; }
-/* mediasq */
+
 @media (min-width: 768px) {
   .mainP {
     display: flex;
